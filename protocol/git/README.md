@@ -21,6 +21,17 @@ Write a Feature
 
 Create a local feature branch based off `develop`.
 
+	
+*Branch Names*
+
+Branch naming style varies slightly depending on the ticketing system we're using:
+
+*Jira*: `feature/<ticket id>-human-readable-reminder, e.g. `feature/HG-123-update-readme`.
+
+*Trello*: `feature/<issue ID from link>`, e.g. `feature/51-share-handsome-pov-via-social-media`.
+
+*Other*: `feature/<short description>`, e.g. `feature/remove-obsolete-links`.
+
     git checkout develop
     git pull
     git checkout -b <branch-name>
