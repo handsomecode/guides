@@ -10,7 +10,7 @@ Maintain a Repo
   development machine or process.
 * Delete local and remote feature branches after merging.
 * Perform work in a feature branch.
-* Rebase frequently to incorporate upstream changes.
+* Merge frequently to incorporate upstream changes.
 * Use a [pull request] for code reviews.
 
 [GitFlow]: https://nvie.com/posts/a-successful-git-branching-model/
@@ -67,7 +67,7 @@ Submit a [GitHub pull request].
 
 Assign reviewers. Ask for a code review in the project's chat room.
 
-[good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[good commit message]: https://chris.beams.io/posts/git-commit/
 [GitHub pull request]: https://help.github.com/articles/using-pull-requests/
 
 Review Code
