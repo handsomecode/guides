@@ -4,6 +4,8 @@ How the Technology Team at Handsome gets things done.
 
 * [Protocol](./protocol)
   * [Git](./protocol/git)
+* [Templates](./templates)
+  * [README](./templates/README)
 
 High level guidelines:
 
@@ -22,12 +24,7 @@ A note on the language:
 Contributing
 ------------
 
-Please read the [contribution guidelines] before submitting a pull request.
-
-In particular: **if you have commit access, please don't merge changes without
-waiting a week for everybody to leave feedback**.
-
-[contribution guidelines]: /CONTRIBUTING.md
+We'd love your input! Please contribute by submitting a pull request, adding the whole technology team as reviewers, and allowing a week for feedback and changes before merging.
 
 Credits
 -------
