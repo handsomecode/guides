@@ -1,6 +1,15 @@
 # Project Title
 
-One Paragraph of project description goes here. At a minimum, include client name, links to repositories for other components in the project, and the names of the Project Manager and Tech Lead.
+One Paragraph of project description goes here. 
+
+## People
+- Tech Lead: YOUR NAME
+- Project Manager: PM'S NAME
+
+## Related Repositories
+- [Front End](https://www.github.com/handsomecode/FRONT-END-FOR-PROJECT)
+- [Back End](https://www.github.com/handsomecode/BACK-END-FOR-PROJECT)
+- [Shared Assets](https://www.github.com/handsomecode/SHARED)
 
 ## Getting Started
 
