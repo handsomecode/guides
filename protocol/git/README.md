@@ -14,7 +14,7 @@ Maintain a Repo
 * Use a [pull request] for code reviews.
 
 [GitFlow]: https://nvie.com/posts/a-successful-git-branching-model/
-[pull request]: ./protocol/prs
+[pull request]: ../prs
 
 Write a Feature
 ---------------
