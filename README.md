@@ -4,6 +4,7 @@ How the Technology Team at Handsome gets things done.
 
 * [Protocol](./protocol)
   * [Git](./protocol/git)
+  * [Pull Requests](./protocol/prs)
 * [Templates](./templates)
   * [README](./templates/README)
 
