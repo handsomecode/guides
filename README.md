@@ -3,10 +3,10 @@
 How the Technology Team at Handsome gets things done.
 
 * [Protocol](./protocol)
-  * [Git](./protocol/git)
-  * [Pull Requests](./protocol/prs)
+	* [Git](./protocol/git)
+	* [Pull Requests](./protocol/prs)
 * [Templates](./templates)
-  * [README](./templates/README)
+	* [README](./templates/README)
 
 High level guidelines:
 
