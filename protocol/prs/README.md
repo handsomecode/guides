@@ -14,7 +14,7 @@ While it feels a litte scary if you're not used to it, getting focused feedback 
 6.  Choose who to review the changes using the `Reviewers` list. Generally, you'll want this to include all the other developers on the team, or perhaps just those who have knowledge of the section of code you're working on.
 7.  Start the review with the "Create pull request" button.
 
-### Pro Tips
+### Submission Pro Tips
 
 -   Keep your PRs small and focused. By only including changes that are relevant to the feature you're working on, you make it easier for reviewers to understand your PR.
 -   Make sure your code is as clear as you can make it. This helps reviewers and will help you when you come back to this same section of code in two months.
@@ -38,9 +38,9 @@ Reviewing others' code helps us to share knowledge and and improve our craft. He
 1.  Use Github's "Start Review" button to begin a review.
 2.  Add comments to the appropriate lines of code where a problem occurs or you have a question. Having those comments in context makes them easier for the submitter to understand and process.
 3.  PRs aren't only for criticism. Call out places where the code is especially well done or uses a technique that's new to you.
-4. When you've reviewed the entire PR, mark it approved or request changes so that the submitter is clear that you're done with your review. (If changes are trivial, e.g. spelling errors, feel free to leave a comment asking for the change but mark the PR as approved so the submitter doesn't need to wait for you to come review the PR again.)
+4.  When you've reviewed the entire PR, mark it approved or request changes so that the submitter is clear that you're done with your review. (If changes are trivial, e.g. spelling errors, feel free to leave a comment asking for the change but mark the PR as approved so the submitter doesn't need to wait for you to come review the PR again.)
 
-### Pro Tips
+### Review Pro Tips
 
 -   Keep it constructive! It's often best to make suggestions as questions: e.g. "Would this be easier to read with a ternary operator rather than an if/then?" (No.)
 -   Keep in mind any style guides or coding standards that the team has agreed on. It may feel picky to call violations of these out, but ultimately it helps everyone to be able to move easily through the project. (Or better, set up linting tools for the project to call these out automatically.)
