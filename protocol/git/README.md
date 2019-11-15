@@ -12,9 +12,11 @@ Maintain a Repo
 * Perform work in a feature branch.
 * Merge frequently to incorporate upstream changes.
 * Use a [pull request] for code reviews.
+* Use [good commit messages]
 
 [GitFlow]: https://nvie.com/posts/a-successful-git-branching-model/
 [pull request]: ../prs
+[good commit messages]: https://chris.beams.io/posts/git-commit/
 
 Write a Feature
 ---------------
