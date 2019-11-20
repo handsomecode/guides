@@ -77,7 +77,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is Copyright Handsome LC.
+This project is Copyright Handsome LLC. Code is property of CLIENT NAME.
 
 ## Acknowledgments
 
