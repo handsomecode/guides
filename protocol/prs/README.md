@@ -6,13 +6,14 @@ How we do Pull Requests and Code Reviews at Handsome.
 
 While it feels a litte scary if you're not used to it, getting focused feedback from other developers is one of the best ways we can continuously improve our craft and skills. Make the most of the opportunity and help your reviewers do the same. Here's how:
 
-1.  Using Github's web interface, create a new PR using the "New Pull Request" button. This will generally go from your feature branch to `develop`.
-2.  Use the "Files Changed" tab to be sure you're only changing what you intend to. If there are changes in your PR that you didn't intend, undo them or change your merge targets until the changes reflect only the work you've done. If there are sections of code that aren't clear, refactor them before submitting the PR.
-3.  Make sure the code builds and runs correctly on your machine and that all unity and functional tests still pass.
-4.  Use the "Create Pull Request" button to create a PR with the changes you've specified.
-5.  Enter a meaningful title and a short description of the work. Include the ticket where the work is specified and brief instructions for QA and other reviewers on how to see your work in action and test it.
-6.  Choose who to review the changes using the `Reviewers` list. Generally, you'll want this to include all the other developers on the team, or perhaps just those who have knowledge of the section of code you're working on.
-7.  Start the review with the "Create pull request" button.
+1.  Pull the latest from `develop` into your branch. Resolve any conflicts. Push that commit back to the server.
+2.  Make sure the code builds and runs correctly on your dev environment and that all unit and functional tests still pass.
+3.  Using Github's web interface, create a new PR using the "New Pull Request" button. This will generally go from your feature branch to `develop`.
+4.  Check the "Files Changed" tab to be sure you're only changing what you intend to. If there are changes in your PR that you didn't intend, undo them or change your merge targets until the changes reflect only the work you've done. If there are sections of code that aren't clear, refactor them before submitting the PR.
+5.  Use the "Create Pull Request" button to create a PR with the changes you've specified.
+6.  Enter a meaningful title and a short description of the work. Include the ticket where the work is specified and brief instructions for QA and other reviewers on how to see your work in action and test it.
+7.  Choose who to review the changes using the `Reviewers` list. Generally, you'll want this to include all the other developers on the team, or perhaps just those who have knowledge of the section of code you're working on.
+8.  Start the review with the "Create pull request" button.
 
 ### Submission Pro Tips
 
@@ -27,9 +28,10 @@ While it feels a litte scary if you're not used to it, getting focused feedback 
 
 Once you've opened a PR, you'll be getting input from different directions, having conversations about the best way to do things, and making changes to your code accordingly. These are best practices for this phase:
 
-1.  As new comments and questions come in, reply to all of them on github to make sure that the author knows you've read and understood their comments. (Responses can be as simple as "done" or "ACK".) Mark comments as resolved once you've addressed the authors concerns.
+1.  As new comments and questions come in, reply to all of them on github to make sure that the author knows you've read and understood their comments. (Responses can be as simple as "done" or "ACK".) Mark comments as resolved once you've addressed the authors' concerns.
 2.  If review shows areas of the code that need improvement, make the changes in your existing branch in a new commit and push them up to Github. The PR will be updated with the new code.
-3.  Once you've received the required numers of approvals, use GitHub's "Merge Pull Request" button to close the PR and merge your code into the target branch. Then use the "Delete Branch" button to remove the branch from the serve.
+3.  Do not add new functionality here; the PR is only for bug fixes/polish on existing functionality in your branch. (This makes your reviewers' lives much easier, as they don't have to keep coming back to the same PR.)
+4.  Once you've received the required numers of approvals, use GitHub's "Merge Pull Request" button to close the PR and merge your code into the target branch. Then use the "Delete Branch" button to remove the branch from the server.
 
 ## Reviewing Others' Pull Requests
 
